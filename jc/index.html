@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script type="text/javascript" src="/jc/script.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
 </head>
+
 <body>
-    <table>
-    <tr>
-        <td>1.</td>
-        <td>Первая строка</td>
-    </tr>
-    <tr>
-        <td>2.</td>
-        <td>Вторая строка</td>
-    </tr>
-    <tr>
-        <td>3.</td>
-        <td>Третья строка</td>
-    </tr>
-    </table>
-    <table>
-        <td>
-            <input type="button" onClick="javascript:addLi();" name="add" value="Добавить в список"></td>
-        </td>
-        <td>
-            <p><input type="button" value="Удалить из списка"></p>
-        </td>
-    </table>
+	<ol id="spisokst">
+		<li id="LI">Первая строка</li>
+	</ol>
+	<table>
+		<td>
+			<input type="button" onclick="addLi()" value="Добавить в список">
+		</td>
+		</td>
+		<td>
+			<input type="button" onclick="deleteLi()" value="Удалить из списка">
+		</td>
+	</table>
 </body>
+
 </html>
